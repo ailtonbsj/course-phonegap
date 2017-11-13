@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>JQuery Mobile Template App</title>
+
+        <link rel="stylesheet" href="libs/jQueryMobile/jquery.mobile-1.4.5.min.css" />
+
+    </head>
+    <body>
+
+    	<div data-role="page" id="contacts-home">
+        <div data-role="header">
+          <h1>Meus Contatos</h1>
+        </div>
+        <div data-role="content">
+          <ul id="contactList" data-hole="listview" data-inset="true">
+          </ul>
+        </div>
+    	</div><!--Lista de contatos -->
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="libs/fastclick.min.js"></script>
+        <script src="libs/jquery-1.12.4.min.js"></script>
+		<script src="libs/jQueryMobile/jquery.mobile-1.4.5.min.js"></script>
+
+		<script type="text/javascript" src="js/index.js"></script>
+
+		<script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
